@@ -2,8 +2,8 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from helper import EarlyStopping, data_aug
-from functions import *
+from model.helper import EarlyStopping, data_aug
+from model.functions import *
 #from Ridge import *
 
 '''

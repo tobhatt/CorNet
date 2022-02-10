@@ -8,8 +8,8 @@ from pathlib import Path
 import random
 
 import matplotlib.pyplot as plt
-from models import CorNet, CorNet_ADA, MTL, WeightNet
-from TwoStepBaseline import TwoStepRF, TwoStepRidge, TwoStepTarNet, TwoStepRF_modi, TwoStepRidge_modi, TwoStepTarNet_modi
+from model.models import CorNet, CorNet_ADA, MTL, WeightNet
+from model.TwoStepBaseline import TwoStepRF, TwoStepRidge, TwoStepTarNet, TwoStepRF_modi, TwoStepRidge_modi, TwoStepTarNet_modi
 from sklearn.linear_model import LogisticRegression
 import torch
 from copy import deepcopy
@@ -38,7 +38,7 @@ params_weight_l = []
 # Load data
 #-----------------------------
 
-a_file = open("sim_dict_star.pkl", "rb")
+a_file = open("data/sim_dict_star.pkl", "rb")
 sim_dict = pickle.load(a_file)
 
 n_conf = sim_dict['x_conf'].shape[0]

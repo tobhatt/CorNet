@@ -1,6 +1,6 @@
 import numpy as np
 from scipy.special import expit
-from models import CorNet
+from model.models import CorNet
 import torch
 from copy import deepcopy
 from sklearn.preprocessing import StandardScaler

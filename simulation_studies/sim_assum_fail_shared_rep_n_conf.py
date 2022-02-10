@@ -6,13 +6,13 @@ import torch
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 from pathlib import Path
-from simdata import sim_data_assum_shared_rep
+from simulation_studies.simdata import sim_data_assum_shared_rep
 from scipy.sparse import random
 import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.lines import Line2D
 import matplotlib
-from models import CorNet
+from model.models import CorNet
 
 #-------------------------------------------
 # Study F1: Shared Representation

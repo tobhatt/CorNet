@@ -5,8 +5,8 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 from pathlib import Path
-from simdata import *
-from models import *
+from simulation_studies.simdata import *
+from model.models import *
 from scipy.sparse import random
 import seaborn as sns
 from matplotlib.lines import Line2D

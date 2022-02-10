@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn import linear_model
 from sklearn.ensemble import RandomForestRegressor
-from models import *
+from model.models import *
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.kernel_ridge import KernelRidge
 

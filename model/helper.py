@@ -1,4 +1,4 @@
-from simdata import *
+from simulation_studies.simdata import *
 import torch
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
